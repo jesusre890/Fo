@@ -87,6 +87,7 @@ header{
 @media screen and (max-width:1080px){
     header{
         height: auto;
+        padding-top: 0;
         grid-template-columns: 1fr;
         grid-template-rows: 2fr 0.5fr;
         grid-template-areas: "tituloHome tituloHome"
@@ -97,6 +98,7 @@ header{
         margin-bottom: 1rem;
     }
 }
+
 
 /* MAIN */
 
