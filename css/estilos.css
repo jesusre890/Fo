@@ -35,6 +35,14 @@ header{
     grid-area: menuHome;
 }
 
+.tituloHome{
+    transition: all 0.5s ease-in-out;
+}
+
+.tituloHome:hover{
+    transform: scale(1.2);
+}
+
 .headerHome .tituloHome{
     width: fit-content;
     font-family: 'Inconsolata', monospace;
@@ -169,6 +177,11 @@ footer{
 .footerRedes a{
     padding: 10px;
     margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footerRedes a:hover{
+    transform: scale(1.5);
 }
 
 @media screen and (max-width:1080px){
