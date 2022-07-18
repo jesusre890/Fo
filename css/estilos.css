@@ -554,3 +554,27 @@ p{
         padding: 3.5em 1em;
     }
 }
+
+/* mediaqueries general */
+
+@media screen and (max-width:1080px){
+    header{
+        width: 95%;
+    }
+
+    .headerFoart{
+        width: 95%;
+    }
+
+    .mainHome{
+        width: 95%;
+    }
+
+    .mainSobreMi{
+        width: 95%;
+    }
+
+    footer{
+        width: 95%;
+    }
+}
