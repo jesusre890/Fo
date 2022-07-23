@@ -261,7 +261,7 @@ p{
 
 /* HEADER FO.ART BOOTSTRAP */
 
-.headerFoart{
+header{
     background-color: white;
     display: grid;
     width: 80%;
@@ -277,15 +277,15 @@ p{
     grid-template-areas: "tituloHome menuHome";
 }
 
-.tituloFoart{
+.tituloHome{
     transition: all 0.5s ease-in-out;
 }
 
-.tituloFoart:hover{
+.tituloHome:hover{
     transform: scale(1.2);
 }
 
-.headerFoart .tituloFoart a{
+header .tituloHome a{
     width: fit-content;
     font-family: 'Inconsolata', monospace;
     font-size: 7.5rem;
@@ -296,7 +296,7 @@ p{
 }
 
 @media screen and (max-width:1080px){
-    .headerFoart{
+    header{
         height: auto;
         padding-top: 40;
         padding-left: 1rem;
@@ -306,7 +306,7 @@ p{
                             ;
     }
 
-    .headerFoart nav ul li{
+    .headerHome nav ul li{
         margin-bottom: 1rem;
     }
 }
@@ -349,7 +349,8 @@ p{
     grid-area: fotoCuatro;
 }
 
-/* carrusel foart */
+/* carrusel foart y arq */
+
 .carousel-inner{
     width: 80%;
     height: 700px;
@@ -426,7 +427,7 @@ p{
 }
 
 
-/* CSS FO. FOART*/
+/* CSS FO. FOARQ*/
 
 .fondoFoarq{
     display: grid;
