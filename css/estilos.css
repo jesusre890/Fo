@@ -151,6 +151,24 @@ header{
     transform: scale(1.2);
 }
 
+li a{
+    transition: all 0.5s ease-in-out;
+}
+
+li a:link{
+    color: black;
+
+}
+
+li a:visited{
+    color: black;
+    font-weight: bold;
+}
+
+li a:active{
+    font-weight: bold;
+}
+
 header .navbar-brandTitulo{
     width: fit-content;
     font-size: 7.5rem;
