@@ -136,6 +136,12 @@ header{
 
 }
 
+.justify-content-end{
+    align-items: center;
+    padding-left: 2.9rem;
+    padding-top: 1rem;
+}
+
 .headerUno{
     display: flex;
     justify-content: space-between;
@@ -186,7 +192,18 @@ header .navbar-brandTitulo{
     }
 }
 
+@media screen and (max-width:350px){
+    .navbar>.container-fluid{
+        justify-content: center;
+        padding: 1rem;
 
+    }
+
+    .justify-content-end{
+        padding-left: 2.2rem;
+    }
+
+}
 
 /* MAIN */
 
