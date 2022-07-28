@@ -1,3 +1,5 @@
+
+/* pasado */
 *{
     padding: 0px;
     margin: 0px;
@@ -12,112 +14,9 @@ body{
 
 /* HEADER */
 
-/* header{ 
-    background-color: white;
-    display: grid;
-    width: 80%;
-    height: 215px;
-    margin: 0 auto;
-    padding-top: 40px;
-    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.25);
-    position: sticky;
-    justify-items: center;
-    align-items:center;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto auto;
-    grid-template-areas: "tituloHome menuHome";
-}
-
-
-.tituloHome{
-    grid-area: tituloHome;
-}
-
-.menuHome{
-    grid-area: menuHome;
-}
-
-.tituloHome{
-    transition: all 0.5s ease-in-out;
-}
-
-.tituloHome:hover{
-    transform: scale(1.2);
-}
-
-.headerHome .tituloHome{
-    width: fit-content;
-    font-family: 'Inconsolata', monospace;
-    font-size: 5rem;
-}
-
-.display-1{
-    font-size: 7.5rem;
-}
-
-
-.menuHome {
-    width: 100%;
-}
-
-.headerHome nav h1 a{
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-
-.menuHome {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding-top: 1rem;
-}
-
-.menuHome li {
-    text-decoration: none;
-    list-style-type: none;
-}
-
-.headerHome nav ul li a{
-    text-decoration: none;
-    color: black;
-    padding: 0 4px;
-    font-family: 'Inconsolata', monospace;
-}
-
-.headerHome nav ul li a{
-    transition: all 0.1s ease-in-out;
-}
-
-.headerHome nav ul li a:hover{
-    font-weight:bold;
-    color: black;
-}
-
-.navMenu{
-    width: 55%;
-    align-self: center;
-}
-
-@media screen and (max-width:1080px){
-    header{
-        height: auto;
-        padding-top: 0;
-        grid-template-columns: 1fr;
-        grid-template-rows: 2fr 0.5fr;
-        grid-template-areas: "tituloHome tituloHome"
-                            "menuHome menuHome";
-    }
-
-    .headerHome nav ul li{
-        margin-bottom: 1rem;
-    }
-}
-
-*/
-
 /* HEADER INDEX BOOTSTRAP */
 
+/* pasado */
 header{
     background-color: white;
     display: flex;
@@ -128,35 +27,40 @@ header{
     padding-top: 40px;
     box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.25);
     position: sticky;
-    align-items: ;
 }
 
+/* pasado */
 .navbar{
     width: 95%;
 
 }
 
+/* pasado */
 .justify-content-end{
     align-items: center;
     padding-left: 2.9rem;
     padding-top: 1rem;
 }
 
+/* pasado */
 .headerUno{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
+/* pasado */
 .navbar-brandTitulo{
     padding-left: 1.5rem;
     transition: all 0.5s ease-in-out;
 }
 
+/* pasado */
 .navbar-brandTitulo:hover{
     transform: scale(1.2);
 }
 
+/* FALTA PASAR */
 li a{
     transition: all 0.5s ease-in-out;
 }
@@ -175,6 +79,7 @@ li a:active{
     font-weight: bold;
 }
 
+/* pasado */
 header .navbar-brandTitulo{
     width: fit-content;
     font-size: 7.5rem;
@@ -207,6 +112,7 @@ header .navbar-brandTitulo{
 
 /* MAIN */
 
+/* pasado */
 .mainHome{
     margin: 0 auto;
     width: 80%;
@@ -217,6 +123,7 @@ header .navbar-brandTitulo{
     justify-content: space-around;
 }
 
+/* pasado */
 .textoMain{
     width: 100%;
     font-family: 'Inconsolata', monospace;
@@ -227,10 +134,12 @@ header .navbar-brandTitulo{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
+/* pasado */
 .display-2{
     font-size: 1.2rem;
     font-weight: bold;
 }
+
 
 .fondoMain{
     width: 95%;
@@ -248,6 +157,7 @@ header .navbar-brandTitulo{
 
 /* FOOTER */
 
+/* pasado */
 footer{
     background-color: white;
     box-shadow: 0px -7px 20px rgba(0, 0, 0, 0.30);
@@ -259,6 +169,7 @@ footer{
     width: 80%;
     height: 100px;
 }
+
 
 .derechosAutor{
     display: flex;
@@ -273,18 +184,21 @@ footer{
     font-weight: bold;
 }
 
+/* pasado */
 .footerRedes{
     display: flex;
     justify-content:flex-end;
     padding: 0 30px;
 }
 
+/* pasado */
 .footerRedes a{
     padding: 10px;
     margin: 10px;
     transition: all 0.3s ease-in-out;
 }
 
+/* pasado */
 .footerRedes a:hover{
     transform: scale(1.5);
 }
