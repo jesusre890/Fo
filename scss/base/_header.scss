@@ -33,6 +33,15 @@ header{
                     align-items: center;
                     padding-left: 2.9rem;
                     padding-top: 1rem;
+                    font-size: 1.1rem;
+
+                    a{
+                        transition: all 400ms ease;
+
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
                 }
             }
         }
