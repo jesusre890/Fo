@@ -130,8 +130,8 @@ header {
     object-fit: cover;
     object-position: center; }
     .mainHome .container-carousel .row .carousel .carousel-inner .carousel-item {
-      height: 100%;
-      margin-bottom: 2rem; } }
+      object-fit: cover;
+      object-position: center; } }
 
 @media screen and (max-width: 1080px) {
   .mainHome {

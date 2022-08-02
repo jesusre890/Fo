@@ -84,8 +84,8 @@
                         object-fit: cover;
                         object-position: center;
                         .carousel-item{
-                            height: 100%;
-                            margin-bottom: 2rem;
+                            object-fit: cover;
+                            object-position: center;
                         }
                     }
                 }
