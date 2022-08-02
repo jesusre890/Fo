@@ -40,6 +40,7 @@ header {
         padding-top: 1rem;
         font-size: 1.1rem; }
         header .navbar .headerUno .navbar-collapse .justify-content-end a {
+          font-weight: bold;
           transition: all 400ms ease; }
           header .navbar .headerUno .navbar-collapse .justify-content-end a:hover {
             text-decoration: underline; }
