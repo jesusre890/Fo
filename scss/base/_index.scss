@@ -6,32 +6,64 @@
     flex-direction: column;
     align-items:center;
     justify-content: space-around;
-    .textoMain{
+    .textoHome{
         width: 100%;
+        height: 45px;
         font-family: 'Inconsolata', monospace;
+        font-size: 30px;
         text-align: center;
         background-color: #D9D9D9;
-        padding: 10px;
         margin: 60px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-        .display-2{
-            font-size: 1.2rem;
-            font-weight: bold;
+        overflow: hidden;
+        .listaBaner{
+            line-height: 40px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            animation: cambiar 10s infinite;
+            font-weight:500;
         }
+
+        @keyframes cambiar {
+            0%{ margin-top: 0;}
+            10%{ margin-top: 0;}
+
+            15% {margin-top: -40px;}
+            30% {margin-top: -40px;}
+
+            35% {margin-top: -80px;}
+            50% {margin-top: -80px;}
+
+            55% {margin-top: -120px;}
+            70% {margin-top: -120px;}
+
+            75% {margin-top: -160px;}
+            90% {margin-top: -160px;}
+
+            100% {margin-top: 0;}
+        }
+
     }
     .container-carousel{
-        width: 100%;
         .row{
             .carousel{
                 .carousel-inner{
-                    width: 100%;
-                    height: 80%;
-                    max-height: 450px;
+                    width: 95%;
+                    height: 95%;
+                    margin: 0 auto;
                     object-fit: cover;
                     object-position: center;
+                    border-radius: 10px;
                     .carousel-item{
+                        width: 100%;
                         height: 100%;
-                        margin-bottom: 2rem;
+                        object-fit: cover;
+                        object-position: center;
+                        img{
+                            object-fit: cover;
+                            object-position: center;
+                        }
                     }
                 }
             }
@@ -48,8 +80,7 @@
                 .carousel{
                     .carousel-inner{
                         width: 100%;
-                        height: 80%;
-                        max-height: 450px;
+                        height: 95%;
                         object-fit: cover;
                         object-position: center;
                         .carousel-item{
