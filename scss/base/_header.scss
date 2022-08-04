@@ -1,9 +1,9 @@
 header{
-    background-color:  nth($list: $colores, $n:1);
+    background-color:  nth($colores, 1);
     @include medidas(80%, 215px);
     margin: 0 auto;
     padding-top: 10px;
-    box-shadow: 0px 7px 20px  nth($list: $colores, $n:5);
+    box-shadow: 0px 7px 20px nth($colores, 5);
     position: sticky;
     .navbar{
         width: 95%;
@@ -15,7 +15,7 @@ header{
                 font-weight: bold;
                 text-decoration: none;
                 list-style: none;
-                color:  nth($list: $colores, $n:2);
+                color:  nth($colores, 2);
                 padding-left: 1.5rem;
                 transition: all 0.5s ease-in-out;
 

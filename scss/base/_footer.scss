@@ -1,6 +1,6 @@
 footer{
-    background-color:  nth($list: $colores, $n:1);
-    box-shadow: 0px -7px 20px  nth($list: $colores, $n:5);
+    background-color: nth($colores, 1);
+    box-shadow: 0px -7px 20px nth($colores, 5);
     position: sticky;
     display: flex;
     flex-direction: column;
