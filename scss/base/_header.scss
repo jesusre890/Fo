@@ -1,18 +1,13 @@
 header{
     background-color:  nth($list: $colores, $n:1);
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    height: 215px;
+    @include medidas(80%, 215px);
     margin: 0 auto;
-    padding-top: 40px;
+    padding-top: 10px;
     box-shadow: 0px 7px 20px  nth($list: $colores, $n:5);
     position: sticky;
     .navbar{
         width: 95%;
         .headerUno{
-            display: flex;
-            justify-content: space-between;
             width: 100%;
             .navbar-brandTitulo{
                 width: fit-content;
@@ -51,8 +46,7 @@ header{
 
 @media screen and (max-width:1080px){
     header{
-        height: auto;
-        width: 90%;
+        @include medidas(90%, auto);
         padding-top: 40;
         padding-left: 0.3rem;
     }

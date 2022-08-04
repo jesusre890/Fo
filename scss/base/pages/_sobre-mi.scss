@@ -2,13 +2,9 @@
     margin: 0 auto;
     width: 80%;
     background-color:  nth($list: $colores, $n:1);
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: space-around;
+    @include flex-column;
     .textoMain{
-        width: 100%;
-        height: 45px;
+        @include medidas(100%, 45px);
         font-family: 'Inconsolata', monospace;
         font-size: 30px;
         text-align: center;
@@ -46,10 +42,7 @@
     }
 
     .descripcionMasImagen{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row-reverse;
-        align-items: center;
+        @include flex-row;
         .fondoSobreMi{
             .imagenSobreMi{
                 width: 100%;
@@ -74,10 +67,7 @@
     .mainSobreMi{
         width: 90%;
         .descripcionMasImagen{
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
+            @include flex-column;
             padding-bottom: 2rem;
             }
             .descripcionMain{

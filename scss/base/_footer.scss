@@ -5,8 +5,7 @@ footer{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 80%;
-    height: 100px;
+    @include medidas(80%, 100px);
     .footerRedes{
         display: flex;
         justify-content:flex-end;
