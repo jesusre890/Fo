@@ -46,6 +46,14 @@ header {
           transition: all 400ms ease; }
           header .navbar .headerUno .navbar-collapse .justify-content-end a:hover {
             text-decoration: underline; }
+  header .dark-mode-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 3px;
+    background: whitesmoke;
+    border-radius: 10px;
+    font-size: 15px; }
 
 @media screen and (max-width: 1080px) {
   header {
@@ -414,3 +422,9 @@ footer {
 @media (max-width: 450px) {
   .mainContacto .formularioPadre {
     padding: 3.5em 1em; } }
+
+html.dark-mode {
+  filter: invert(89%); }
+
+html.dark-mode img {
+  filter: invert(100%); }
