@@ -498,6 +498,12 @@ footer {
   .mainArt .grid-container .tall {
     grid-row: span 2; } }
 
+@media (max-width: 320px) {
+  .mainArt .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%; } }
+
 @media screen and (max-width: 512px) {
   .mainArt .textoMainArt {
     width: 100%;
