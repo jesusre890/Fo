@@ -431,3 +431,6 @@ html.dark-mode img {
 
 [type="checkbox"] {
   display: none; }
+
+.lunita {
+  width: 16px; }
