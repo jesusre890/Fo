@@ -513,10 +513,10 @@ footer {
 html.dark-mode {
   filter: invert(89%); }
 
-html.dark-mode img {
+html.dark-mode .grid-item {
   filter: invert(100%); }
 
-html.dark-mode .grid-item {
+html.dark-mode img {
   filter: invert(100%); }
 
 [type="checkbox"] {
