@@ -1,4 +1,4 @@
-.mainHome .container-carousel .row .carousel .carousel-inner, .mainArtArq .container-carousel .row .carousel .carousel-inner {
+.mainHome .container-carousel .row .carousel .carousel-inner {
   object-fit: cover;
   object-position: center;
   border-radius: 10px;
@@ -261,25 +261,24 @@ footer {
     .mainSobreMi .descripcionMain {
       width: 90%; } }
 
-.mainArtArq {
+.mainArq {
   margin: 0 auto;
   width: 80%;
   background-color: white;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around; }
-  .mainArtArq .textoMain {
+  flex-direction: column; }
+  .mainArq .textoMainArq {
     width: 100%;
     height: 45px;
     font-family: 'Inconsolata', monospace;
     font-size: 30px;
     text-align: center;
     background-color: #D9D9D9;
-    margin: 60px;
+    margin-top: 60px;
+    margin-bottom: 40px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
     overflow: hidden; }
-    .mainArtArq .textoMain .listaBaner {
+    .mainArq .textoMainArq .listaBanerArq {
       line-height: 40px;
       list-style: none;
       padding: 0;
@@ -310,48 +309,46 @@ footer {
     margin-top: -160px; }
   100% {
     margin-top: 0; } }
-  .mainArtArq .container-carousel .row .carousel .carousel-inner {
-    width: 80%;
-    height: 1000px;
-    margin-bottom: 1rem; }
-    .mainArtArq .container-carousel .row .carousel .carousel-inner .carousel-item {
-      width: 100%;
-      height: 100%;
-      margin-bottom: 1rem; }
+  .mainArq .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-flow: dense; }
+    .mainArq .grid-container .grid-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: lightblue;
+      border-radius: 4px;
+      transition: 0.3s ease-in-out;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
+      .mainArq .grid-container .grid-item:hover {
+        filter: opacity(0.9);
+        transform: scale(1.04); }
 
-@media screen and (max-width: 1270px) {
-  .mainArtArq .container-carousel .row .carousel .carousel-inner {
-    width: 90%;
-    height: 90%;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-    border-radius: 10px; }
-    .mainArtArq .container-carousel .row .carousel .carousel-inner .carousel-item {
-      width: 100%;
-      height: 100%;
-      margin-bottom: 1rem;
-      object-fit: cover;
-      object-position: center; } }
+@media (min-width: 630px) {
+  .mainArq .grid-container .wide {
+    grid-column: span 2; }
+  .mainArq .grid-container .tall {
+    grid-row: span 2; } }
+
+@media (max-width: 320px) {
+  .mainArq .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%; } }
 
 @media screen and (max-width: 512px) {
-  .mainArtArq .textoMain {
+  .mainArq .textoMainArt {
     width: 100%;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); }
-  .mainArtArq .container-carousel .row .carousel .carousel-inner {
-    width: 90%;
-    height: 80%;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-    border-radius: 10px; }
-    .mainArtArq .container-carousel .row .carousel .carousel-inner .carousel-item {
-      width: 100%;
-      height: 100%;
-      margin-bottom: 1rem;
-      object-fit: cover;
-      object-position: center; } }
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); } }
 
 @media screen and (max-width: 1080px) {
-  .mainArtArq {
+  .mainArq {
     width: 90%; } }
 
 .mainContacto {
