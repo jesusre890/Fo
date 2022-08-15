@@ -3,7 +3,7 @@ header{
     @include medidas(80%, 215px);
     margin: 0 auto;
     padding-top: 10px;
-    box-shadow: 0px 7px 20px nth($colores, 5);
+    box-shadow: 0px 2px 15px nth($colores, 5);
     position: sticky;
     .navbar{
         width: 95%;
@@ -42,13 +42,11 @@ header{
         }
     }
     .dark-mode-button{
+        display: flex;
+        align-items: center;
         position:absolute;
         top: 20px;
         right: 20px;
-        padding: 3px;
-        background: whitesmoke;
-        border-radius: 10px;
-        font-size: 15px;
     }
 }
 

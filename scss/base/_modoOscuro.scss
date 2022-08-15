@@ -5,3 +5,18 @@ html.dark-mode{
 html.dark-mode img{
     filter: invert(100%);
 }
+
+
+[type="checkbox"]{display: none;}
+
+label{
+    position: relative;
+}
+
+label:before{
+    position: absolute;
+    border-radius: 3px;
+    left: 0px;
+    transition: all 0.2s;
+    transform: rotate(0deg);
+}
