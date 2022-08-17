@@ -12,6 +12,18 @@
     align-items: center;
 }
 
+@mixin flex-paraGrid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin background-Grid{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 @mixin medidas($width, $height){
     width: $width;
     height: $height;
